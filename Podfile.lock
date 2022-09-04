@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.6.1)
+  - DropDown (2.3.13)
+  - FloatingPanel (2.5.3)
+  - GoogleMaps (7.0.0):
+    - GoogleMaps/Maps (= 7.0.0)
+  - GoogleMaps/Base (7.0.0)
+  - GoogleMaps/Maps (7.0.0):
+    - GoogleMaps/Base
+  - GooglePlaces (7.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - FloatingPanel
+  - GoogleMaps
+  - GooglePlaces
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - FloatingPanel
+    - GoogleMaps
+    - GooglePlaces
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FloatingPanel: 3cee815e9ded75b632543fa73ab655a1ef941452
+  GoogleMaps: 6e9c923ca035989709fcb5771544fda4cc5fa2a4
+  GooglePlaces: 8dba710bed6160a2e4b85e84aaafdbcc0b4010d8
+
+PODFILE CHECKSUM: 5ccd9d861b5c781b460c7bbc02e64eb2fb19d0c8
+
+COCOAPODS: 1.11.3

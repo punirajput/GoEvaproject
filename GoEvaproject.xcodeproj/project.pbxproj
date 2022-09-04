@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368E7D24B543293D184D56B6 /* Pods_GoEvaproject_GoEvaprojectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F1360284566681405AAFB5 /* Pods_GoEvaproject_GoEvaprojectUITests.framework */; };
+		95488BD1288E8BD200CC061A /* stackscrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95488BD0288E8BD200CC061A /* stackscrollerViewController.swift */; };
+		9586DD9728ACB48E000204E8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586DD9628ACB48B000204E8 /* FirstViewController.swift */; };
+		9586DD9928ACFBE6000204E8 /* BookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586DD9828ACFBE2000204E8 /* BookingTableViewCell.swift */; };
+		95AA4F7D287F0DCB003EC2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4F7C287F0DCB003EC2D5 /* AppDelegate.swift */; };
+		95AA4F7F287F0DCB003EC2D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4F7E287F0DCB003EC2D5 /* SceneDelegate.swift */; };
+		95AA4F81287F0DCB003EC2D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4F80287F0DCB003EC2D5 /* ViewController.swift */; };
+		95AA4F84287F0DCB003EC2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AA4F82287F0DCB003EC2D5 /* Main.storyboard */; };
+		95AA4F86287F0DE0003EC2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AA4F85287F0DE0003EC2D5 /* Assets.xcassets */; };
+		95AA4F89287F0DE0003EC2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AA4F87287F0DE0003EC2D5 /* LaunchScreen.storyboard */; };
+		95AA4F94287F0DE2003EC2D5 /* GoEvaprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4F93287F0DE2003EC2D5 /* GoEvaprojectTests.swift */; };
+		95AA4F9E287F0DE2003EC2D5 /* GoEvaprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4F9D287F0DE2003EC2D5 /* GoEvaprojectUITests.swift */; };
+		95AA4FA0287F0DE2003EC2D5 /* GoEvaprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4F9F287F0DE2003EC2D5 /* GoEvaprojectUITestsLaunchTests.swift */; };
+		95AA4FAD287F25F7003EC2D5 /* flagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4FAC287F25F6003EC2D5 /* flagViewController.swift */; };
+		95AA4FB3287F2940003EC2D5 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4FB2287F2940003EC2D5 /* model.swift */; };
+		95AA4FB5287F51E1003EC2D5 /* sidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4FB4287F51E0003EC2D5 /* sidemenuViewController.swift */; };
+		95AA4FB7287FF24B003EC2D5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA4FB6287FF24B003EC2D5 /* TableViewCell.swift */; };
+		95DBBFD128ABB20800C8F0AA /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBBFD028ABB20600C8F0AA /* BookingViewController.swift */; };
+		95E702162884291400342EBF /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E702152884291400342EBF /* OTPViewController.swift */; };
+		95E7021828852E1D00342EBF /* flagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7021728852E1D00342EBF /* flagTableViewCell.swift */; };
+		95E7021A288540D100342EBF /* forgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E70219288540D000342EBF /* forgetViewController.swift */; };
+		95E7025E2885D9B900342EBF /* accountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7025D2885D9B900342EBF /* accountViewController.swift */; };
+		C5BAFF79C6884B0B882FD66F /* Pods_GoEvaprojectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FB3C5F664B380E48FD05C7 /* Pods_GoEvaprojectTests.framework */; };
+		F017794D0020208311B75651 /* Pods_GoEvaproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851366C2F8C8F716D446C590 /* Pods_GoEvaproject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95AA4F90287F0DE1003EC2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95AA4F71287F0DCB003EC2D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95AA4F78287F0DCB003EC2D5;
+			remoteInfo = GoEvaproject;
+		};
+		95AA4F9A287F0DE2003EC2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95AA4F71287F0DCB003EC2D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95AA4F78287F0DCB003EC2D5;
+			remoteInfo = GoEvaproject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12431D0F946E2D1F5E0552A6 /* Pods-GoEvaproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEvaproject.debug.xcconfig"; path = "Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject.debug.xcconfig"; sourceTree = "<group>"; };
+		1BDD01FF56789C49E64A20A0 /* Pods-GoEvaproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEvaproject.release.xcconfig"; path = "Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject.release.xcconfig"; sourceTree = "<group>"; };
+		23FB3C5F664B380E48FD05C7 /* Pods_GoEvaprojectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoEvaprojectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E5F70700E4F83B412F0D14 /* Pods-GoEvaproject-GoEvaprojectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEvaproject-GoEvaprojectUITests.release.xcconfig"; path = "Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		848B5DA82158A54319DD14DD /* Pods-GoEvaproject-GoEvaprojectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEvaproject-GoEvaprojectUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		851366C2F8C8F716D446C590 /* Pods_GoEvaproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoEvaproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFC7E074996A3F0D18D6D3D /* Pods-GoEvaprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEvaprojectTests.release.xcconfig"; path = "Target Support Files/Pods-GoEvaprojectTests/Pods-GoEvaprojectTests.release.xcconfig"; sourceTree = "<group>"; };
+		95488BD0288E8BD200CC061A /* stackscrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackscrollerViewController.swift; sourceTree = "<group>"; };
+		9586DD9628ACB48B000204E8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9586DD9828ACFBE2000204E8 /* BookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTableViewCell.swift; sourceTree = "<group>"; };
+		95AA4F79287F0DCB003EC2D5 /* GoEvaproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEvaproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AA4F7C287F0DCB003EC2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95AA4F7E287F0DCB003EC2D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95AA4F80287F0DCB003EC2D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95AA4F83287F0DCB003EC2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95AA4F85287F0DE0003EC2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95AA4F88287F0DE0003EC2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95AA4F8A287F0DE0003EC2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AA4F8F287F0DE1003EC2D5 /* GoEvaprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoEvaprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AA4F93287F0DE2003EC2D5 /* GoEvaprojectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoEvaprojectTests.swift; sourceTree = "<group>"; };
+		95AA4F99287F0DE2003EC2D5 /* GoEvaprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoEvaprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AA4F9D287F0DE2003EC2D5 /* GoEvaprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoEvaprojectUITests.swift; sourceTree = "<group>"; };
+		95AA4F9F287F0DE2003EC2D5 /* GoEvaprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoEvaprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95AA4FAC287F25F6003EC2D5 /* flagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagViewController.swift; sourceTree = "<group>"; };
+		95AA4FB2287F2940003EC2D5 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		95AA4FB4287F51E0003EC2D5 /* sidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuViewController.swift; sourceTree = "<group>"; };
+		95AA4FB6287FF24B003EC2D5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		95DBBFD028ABB20600C8F0AA /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		95E702152884291400342EBF /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		95E7021728852E1D00342EBF /* flagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagTableViewCell.swift; sourceTree = "<group>"; };
+		95E70219288540D000342EBF /* forgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetViewController.swift; sourceTree = "<group>"; };
+		95E7025D2885D9B900342EBF /* accountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountViewController.swift; sourceTree = "<group>"; };
+		C3F1360284566681405AAFB5 /* Pods_GoEvaproject_GoEvaprojectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoEvaproject_GoEvaprojectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0C0F496D6B2183D982FBE0 /* Pods-GoEvaprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEvaprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-GoEvaprojectTests/Pods-GoEvaprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95AA4F76287F0DCB003EC2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F017794D0020208311B75651 /* Pods_GoEvaproject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AA4F8C287F0DE1003EC2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BAFF79C6884B0B882FD66F /* Pods_GoEvaprojectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AA4F96287F0DE2003EC2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368E7D24B543293D184D56B6 /* Pods_GoEvaproject_GoEvaprojectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95AA4F70287F0DCB003EC2D5 = {
+			isa = PBXGroup;
+			children = (
+				95AA4F7B287F0DCB003EC2D5 /* GoEvaproject */,
+				95AA4F92287F0DE2003EC2D5 /* GoEvaprojectTests */,
+				95AA4F9C287F0DE2003EC2D5 /* GoEvaprojectUITests */,
+				95AA4F7A287F0DCB003EC2D5 /* Products */,
+				A403244F12744A163AB44CEC /* Pods */,
+				F3D2F74EA44924510A2A8872 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95AA4F7A287F0DCB003EC2D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AA4F79287F0DCB003EC2D5 /* GoEvaproject.app */,
+				95AA4F8F287F0DE1003EC2D5 /* GoEvaprojectTests.xctest */,
+				95AA4F99287F0DE2003EC2D5 /* GoEvaprojectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AA4F7B287F0DCB003EC2D5 /* GoEvaproject */ = {
+			isa = PBXGroup;
+			children = (
+				95AA4F7C287F0DCB003EC2D5 /* AppDelegate.swift */,
+				95AA4F7E287F0DCB003EC2D5 /* SceneDelegate.swift */,
+				95AA4F80287F0DCB003EC2D5 /* ViewController.swift */,
+				95AA4F82287F0DCB003EC2D5 /* Main.storyboard */,
+				9586DD9628ACB48B000204E8 /* FirstViewController.swift */,
+				95488BD0288E8BD200CC061A /* stackscrollerViewController.swift */,
+				95E7025D2885D9B900342EBF /* accountViewController.swift */,
+				95DBBFD028ABB20600C8F0AA /* BookingViewController.swift */,
+				95E70219288540D000342EBF /* forgetViewController.swift */,
+				95E7021728852E1D00342EBF /* flagTableViewCell.swift */,
+				95E702152884291400342EBF /* OTPViewController.swift */,
+				95AA4FB6287FF24B003EC2D5 /* TableViewCell.swift */,
+				9586DD9828ACFBE2000204E8 /* BookingTableViewCell.swift */,
+				95AA4FB4287F51E0003EC2D5 /* sidemenuViewController.swift */,
+				95AA4FAC287F25F6003EC2D5 /* flagViewController.swift */,
+				95AA4F85287F0DE0003EC2D5 /* Assets.xcassets */,
+				95AA4F87287F0DE0003EC2D5 /* LaunchScreen.storyboard */,
+				95AA4F8A287F0DE0003EC2D5 /* Info.plist */,
+				95AA4FB2287F2940003EC2D5 /* model.swift */,
+			);
+			path = GoEvaproject;
+			sourceTree = "<group>";
+		};
+		95AA4F92287F0DE2003EC2D5 /* GoEvaprojectTests */ = {
+			isa = PBXGroup;
+			children = (
+				95AA4F93287F0DE2003EC2D5 /* GoEvaprojectTests.swift */,
+			);
+			path = GoEvaprojectTests;
+			sourceTree = "<group>";
+		};
+		95AA4F9C287F0DE2003EC2D5 /* GoEvaprojectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95AA4F9D287F0DE2003EC2D5 /* GoEvaprojectUITests.swift */,
+				95AA4F9F287F0DE2003EC2D5 /* GoEvaprojectUITestsLaunchTests.swift */,
+			);
+			path = GoEvaprojectUITests;
+			sourceTree = "<group>";
+		};
+		A403244F12744A163AB44CEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12431D0F946E2D1F5E0552A6 /* Pods-GoEvaproject.debug.xcconfig */,
+				1BDD01FF56789C49E64A20A0 /* Pods-GoEvaproject.release.xcconfig */,
+				848B5DA82158A54319DD14DD /* Pods-GoEvaproject-GoEvaprojectUITests.debug.xcconfig */,
+				43E5F70700E4F83B412F0D14 /* Pods-GoEvaproject-GoEvaprojectUITests.release.xcconfig */,
+				DF0C0F496D6B2183D982FBE0 /* Pods-GoEvaprojectTests.debug.xcconfig */,
+				8CFC7E074996A3F0D18D6D3D /* Pods-GoEvaprojectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3D2F74EA44924510A2A8872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851366C2F8C8F716D446C590 /* Pods_GoEvaproject.framework */,
+				C3F1360284566681405AAFB5 /* Pods_GoEvaproject_GoEvaprojectUITests.framework */,
+				23FB3C5F664B380E48FD05C7 /* Pods_GoEvaprojectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95AA4F78287F0DCB003EC2D5 /* GoEvaproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AA4FA3287F0DE2003EC2D5 /* Build configuration list for PBXNativeTarget "GoEvaproject" */;
+			buildPhases = (
+				568067851851F35642C9BC7D /* [CP] Check Pods Manifest.lock */,
+				95AA4F75287F0DCB003EC2D5 /* Sources */,
+				95AA4F76287F0DCB003EC2D5 /* Frameworks */,
+				95AA4F77287F0DCB003EC2D5 /* Resources */,
+				D9E56498B38562E8DD5C254E /* [CP] Embed Pods Frameworks */,
+				B769DF5FEFCF28DAA626A4A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoEvaproject;
+			productName = GoEvaproject;
+			productReference = 95AA4F79287F0DCB003EC2D5 /* GoEvaproject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95AA4F8E287F0DE1003EC2D5 /* GoEvaprojectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AA4FA6287F0DE2003EC2D5 /* Build configuration list for PBXNativeTarget "GoEvaprojectTests" */;
+			buildPhases = (
+				DCB36EB73F4909930862FC85 /* [CP] Check Pods Manifest.lock */,
+				95AA4F8B287F0DE1003EC2D5 /* Sources */,
+				95AA4F8C287F0DE1003EC2D5 /* Frameworks */,
+				95AA4F8D287F0DE1003EC2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95AA4F91287F0DE1003EC2D5 /* PBXTargetDependency */,
+			);
+			name = GoEvaprojectTests;
+			productName = GoEvaprojectTests;
+			productReference = 95AA4F8F287F0DE1003EC2D5 /* GoEvaprojectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95AA4F98287F0DE2003EC2D5 /* GoEvaprojectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AA4FA9287F0DE2003EC2D5 /* Build configuration list for PBXNativeTarget "GoEvaprojectUITests" */;
+			buildPhases = (
+				6906CBDA0C07D45E4292BF0B /* [CP] Check Pods Manifest.lock */,
+				95AA4F95287F0DE2003EC2D5 /* Sources */,
+				95AA4F96287F0DE2003EC2D5 /* Frameworks */,
+				95AA4F97287F0DE2003EC2D5 /* Resources */,
+				BF1C44B16E3CDDCB34EA3C7F /* [CP] Embed Pods Frameworks */,
+				E0710D736A28694BAD0845F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95AA4F9B287F0DE2003EC2D5 /* PBXTargetDependency */,
+			);
+			name = GoEvaprojectUITests;
+			productName = GoEvaprojectUITests;
+			productReference = 95AA4F99287F0DE2003EC2D5 /* GoEvaprojectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95AA4F71287F0DCB003EC2D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					95AA4F78287F0DCB003EC2D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					95AA4F8E287F0DE1003EC2D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 95AA4F78287F0DCB003EC2D5;
+					};
+					95AA4F98287F0DE2003EC2D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 95AA4F78287F0DCB003EC2D5;
+					};
+				};
+			};
+			buildConfigurationList = 95AA4F74287F0DCB003EC2D5 /* Build configuration list for PBXProject "GoEvaproject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95AA4F70287F0DCB003EC2D5;
+			productRefGroup = 95AA4F7A287F0DCB003EC2D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95AA4F78287F0DCB003EC2D5 /* GoEvaproject */,
+				95AA4F8E287F0DE1003EC2D5 /* GoEvaprojectTests */,
+				95AA4F98287F0DE2003EC2D5 /* GoEvaprojectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95AA4F77287F0DCB003EC2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AA4F89287F0DE0003EC2D5 /* LaunchScreen.storyboard in Resources */,
+				95AA4F86287F0DE0003EC2D5 /* Assets.xcassets in Resources */,
+				95AA4F84287F0DCB003EC2D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AA4F8D287F0DE1003EC2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AA4F97287F0DE2003EC2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		568067851851F35642C9BC7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoEvaproject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6906CBDA0C07D45E4292BF0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoEvaproject-GoEvaprojectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B769DF5FEFCF28DAA626A4A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1C44B16E3CDDCB34EA3C7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E56498B38562E8DD5C254E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject/Pods-GoEvaproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB36EB73F4909930862FC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoEvaprojectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0710D736A28694BAD0845F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoEvaproject-GoEvaprojectUITests/Pods-GoEvaproject-GoEvaprojectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95AA4F75287F0DCB003EC2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AA4FB7287FF24B003EC2D5 /* TableViewCell.swift in Sources */,
+				95E7025E2885D9B900342EBF /* accountViewController.swift in Sources */,
+				95AA4FB3287F2940003EC2D5 /* model.swift in Sources */,
+				95E702162884291400342EBF /* OTPViewController.swift in Sources */,
+				95E7021A288540D100342EBF /* forgetViewController.swift in Sources */,
+				9586DD9928ACFBE6000204E8 /* BookingTableViewCell.swift in Sources */,
+				95AA4F81287F0DCB003EC2D5 /* ViewController.swift in Sources */,
+				95AA4F7D287F0DCB003EC2D5 /* AppDelegate.swift in Sources */,
+				95AA4FAD287F25F7003EC2D5 /* flagViewController.swift in Sources */,
+				95488BD1288E8BD200CC061A /* stackscrollerViewController.swift in Sources */,
+				95E7021828852E1D00342EBF /* flagTableViewCell.swift in Sources */,
+				95DBBFD128ABB20800C8F0AA /* BookingViewController.swift in Sources */,
+				95AA4FB5287F51E1003EC2D5 /* sidemenuViewController.swift in Sources */,
+				95AA4F7F287F0DCB003EC2D5 /* SceneDelegate.swift in Sources */,
+				9586DD9728ACB48E000204E8 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AA4F8B287F0DE1003EC2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AA4F94287F0DE2003EC2D5 /* GoEvaprojectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AA4F95287F0DE2003EC2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AA4F9E287F0DE2003EC2D5 /* GoEvaprojectUITests.swift in Sources */,
+				95AA4FA0287F0DE2003EC2D5 /* GoEvaprojectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95AA4F91287F0DE1003EC2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95AA4F78287F0DCB003EC2D5 /* GoEvaproject */;
+			targetProxy = 95AA4F90287F0DE1003EC2D5 /* PBXContainerItemProxy */;
+		};
+		95AA4F9B287F0DE2003EC2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95AA4F78287F0DCB003EC2D5 /* GoEvaproject */;
+			targetProxy = 95AA4F9A287F0DE2003EC2D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95AA4F82287F0DCB003EC2D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95AA4F83287F0DCB003EC2D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95AA4F87287F0DE0003EC2D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95AA4F88287F0DE0003EC2D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95AA4FA1287F0DE2003EC2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95AA4FA2287F0DE2003EC2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95AA4FA4287F0DE2003EC2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12431D0F946E2D1F5E0552A6 /* Pods-GoEvaproject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoEvaproject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.cryothai.sales.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95AA4FA5287F0DE2003EC2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDD01FF56789C49E64A20A0 /* Pods-GoEvaproject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoEvaproject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.cryothai.sales.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95AA4FA7287F0DE2003EC2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0C0F496D6B2183D982FBE0 /* Pods-GoEvaprojectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.GoEvaprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEvaproject.app/GoEvaproject";
+			};
+			name = Debug;
+		};
+		95AA4FA8287F0DE2003EC2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFC7E074996A3F0D18D6D3D /* Pods-GoEvaprojectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.GoEvaprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEvaproject.app/GoEvaproject";
+			};
+			name = Release;
+		};
+		95AA4FAA287F0DE2003EC2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848B5DA82158A54319DD14DD /* Pods-GoEvaproject-GoEvaprojectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.GoEvaprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoEvaproject;
+			};
+			name = Debug;
+		};
+		95AA4FAB287F0DE2003EC2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E5F70700E4F83B412F0D14 /* Pods-GoEvaproject-GoEvaprojectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.GoEvaprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoEvaproject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95AA4F74287F0DCB003EC2D5 /* Build configuration list for PBXProject "GoEvaproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA4FA1287F0DE2003EC2D5 /* Debug */,
+				95AA4FA2287F0DE2003EC2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AA4FA3287F0DE2003EC2D5 /* Build configuration list for PBXNativeTarget "GoEvaproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA4FA4287F0DE2003EC2D5 /* Debug */,
+				95AA4FA5287F0DE2003EC2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AA4FA6287F0DE2003EC2D5 /* Build configuration list for PBXNativeTarget "GoEvaprojectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA4FA7287F0DE2003EC2D5 /* Debug */,
+				95AA4FA8287F0DE2003EC2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AA4FA9287F0DE2003EC2D5 /* Build configuration list for PBXNativeTarget "GoEvaprojectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA4FAA287F0DE2003EC2D5 /* Debug */,
+				95AA4FAB287F0DE2003EC2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95AA4F71287F0DCB003EC2D5 /* Project object */;
+}
